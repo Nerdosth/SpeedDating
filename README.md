@@ -22,6 +22,22 @@ Created a dataset that only included the unmatched participants:
 Isolating and creating a dataframe to find the mean for each rating an unmatched participant gave themselves and their partner. Then creating subplots to feed the data into comparable histograms with shared axes. Repeated this process for all attributes of unmatched participants:
 ![image](https://user-images.githubusercontent.com/110507463/201764485-df91924f-beae-4e97-9d72-c6f323bf44c4.png)
 
+# Question 2: Of the total participants how do men and women differ in how they rate the opposite sex and are there differences pre-speed-dating and post-speed-dating?
+
+First, we create a dataframe for pre-speed-dating attribute ratings with rows for both genders. Then, using seaborn and iplot, generate a bar chart where columns for men and women are grouped above the appropriate attribute for the best comparison.
+![image](https://user-images.githubusercontent.com/111237645/201791656-7813799a-fbab-45a5-87e0-292f3addd43d.png)
+![image](https://user-images.githubusercontent.com/111237645/201791940-c68b9532-9403-4a3a-90d4-5cc0ee23fdd0.png)
+Pre-speed-dating Men value attractiveness above all other traits while Women value Intelligence the most. Both men and women value ambition the least.
+
+The method was then duplicated for ratings for what participants estimated the opposite sex would rate desired attributes as well as their post-spped-dating ratings to see if there were any changes from pre to post.
+![image](https://user-images.githubusercontent.com/111237645/201792321-9dc5a85f-cd7c-4ab9-8c1a-60c8c7f16b83.png)
+![image](https://user-images.githubusercontent.com/111237645/201792345-0edb4347-dd60-4b46-8373-080a43c279d1.png)
+Women think men value attractiveness above all else. Men think the same of women, but less. Men think women value ambition more than they do in the pre-speed-dating bar chart.
+
+![image](https://user-images.githubusercontent.com/111237645/201792390-df268f23-6d46-4086-82c6-49be0245fe58.png)
+![image](https://user-images.githubusercontent.com/111237645/201792409-c3aeee05-369f-479f-8bef-ee86e3f36e38.png)
+Post-speed-dating Men and Women prefer attractiveness more than pre-speed-dating. Both still prefer ambition the least of the attributes.
+
 # Question 3: How does an individuals Career Goal influence how they rate themselves vs how they rate their partners attritubes?
 
 First, we need to check how many unique careers are in the data. Then we need to determine which careers we should drop. Including carrers with very few entries would skew the data. Somebody can make the wrong assumption about certain career types with one or two individuals responses compared to a career type with many people.
