@@ -15,7 +15,7 @@ Created a dataset that included only the matched participants:
 Isolating and creating a dataframe to find the mean for each rating a matched participant gave themselves and their partner. Then creating subplots to feed the data into comparable histograms with shared axes. Repeated this process for all attributes of matched participants:
 ![image](https://user-images.githubusercontent.com/110507463/201764137-9d6126c2-b947-4091-932d-78a88c88c954.png)
 
-## Analysis for people who matched and their perceptions of the five qualities
+## Analysis for people who did not matched and their perceptions of the five qualities
 Created a dataset that only included the unmatched participants:
 ![image](https://user-images.githubusercontent.com/110507463/201764403-605f5e10-5494-40d0-a843-e6a219a16f03.png)
 
