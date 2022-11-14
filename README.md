@@ -3,8 +3,24 @@
 Project 1 - Group 3:  Analysis of SpeedDating Data
 
 
+# Question 1: Of the total participants, how did matched and unmatched participants rate themselves and their partners in each of the five surveyed attributes: attractiveness, sincerity, intelligence, fun, and ambition?
+- Matched participants rated partners high, as expected. Favorably across all attributes but particularly in attractiveness
+- Unmatched participants rated themselves higher, most notably in intelligence
+- Matched and unmatched participants rated themselves similarly across all attributes
 
+## Analysis for people who matched and their perceptions of the five qualities
+Created a dataset that included only the matched participants:
+![image](https://user-images.githubusercontent.com/110507463/201763663-0d3bcfb5-e78e-4680-b063-044b37e7d5c8.png)
 
+Isolating and creating a dataframe to find the mean for each rating a matched participant gave themselves and their partner. Then creating subplots to feed the data into comparable histograms with shared axes. Repeated this process for all attributes of matched participants:
+![image](https://user-images.githubusercontent.com/110507463/201764137-9d6126c2-b947-4091-932d-78a88c88c954.png)
+
+## Analysis for people who matched and their perceptions of the five qualities
+Created a dataset that only included the unmatched participants:
+![image](https://user-images.githubusercontent.com/110507463/201764403-605f5e10-5494-40d0-a843-e6a219a16f03.png)
+
+Isolating and creating a dataframe to find the mean for each rating an unmatched participant gave themselves and their partner. Then creating subplots to feed the data into comparable histograms with shared axes. Repeated this process for all attributes of unmatched participants:
+![image](https://user-images.githubusercontent.com/110507463/201764485-df91924f-beae-4e97-9d72-c6f323bf44c4.png)
 
 # Question 3: How does an individuals Career Goal influence how they rate themselves vs how they rate their partners attritubes?
 
