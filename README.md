@@ -40,6 +40,8 @@ Post-speed-dating Men and Women prefer attractiveness more than pre-speed-dating
 
 # Question 3: How does an individuals Career Goal influence how they rate themselves vs how they rate their partners attritubes?
 
+We could not conclude that a person’s intended career has any significant influence on how they rate their own attributes or how they were rated by their partner. On average the rates were between 7 and 8 when rating themselves and 6 and 7 when rating others.  Because of this, we took the mean value of all the participant’s scores and looked closely on how they differentiate.  
+
 First, we need to check how many unique careers are in the data. Then we need to determine which careers we should drop. Including carrers with very few entries would skew the data. Somebody can make the wrong assumption about certain career types with one or two individuals responses compared to a career type with many people.
 
 <img width="684" alt="image" src="https://user-images.githubusercontent.com/76061893/201706111-028ad46d-954c-4665-bc78-9e0b4dfae403.png">
